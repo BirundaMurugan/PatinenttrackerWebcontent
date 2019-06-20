@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.nurse-image {
+   background-image: url("images/bill_settlement.png");
+   background-color: #cccccc;
+   height: 1000px;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
+
+</style>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="nurse-image">
+      <div class="container" align="center">
+         <div class="page-header">
+            <h1>Admin Login</h1>
+         </div>
+      </div >
+      <form action="AdminRegistration.jsp">
+         <br>
+         <div class="form-group" >
+            <div class="col-xs-3" >
+               
+               <b class="text-primary">UserId:</b>
+               <br> <input type="text"
+                  class="form-control" id="UserId" placeholder="Enter User Id" name="UserId" required>
+               </br>
+               <b class="text-primary">Password:</b>
+               <br> <input type="text"
+                  class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+               </br>
+               
+                
+	        <br>
+
+	          <button type="submit" formaction="ValidateAdmin"
+		           class="btn btn-success">Login</button>
+	          <button type="button" class="btn btn-warning"><a href="AdminRegistration.jsp">Sign in</a></button>
+
+	           </br>
+	          
+            </div>
+         </div>
+      </form>
+   </div>
+   
+</body>
+
+</body>
+</html>
